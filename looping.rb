@@ -1,5 +1,8 @@
 def happy_new_year
-  # your code here
+  10.times do |i| 
+    next unless i.even?
+
+    puts "Happy New Year!"
 end
 
 # No need to modify this code! Use this to implement the fizzbuzz_printer method.
@@ -16,9 +19,12 @@ def fizzbuzz(num)
 end
 
 def fizzbuzz_printer
-  # your code here
+   if num % 3<=100 == 3*() && num % 5<=100 == 5*()
+      puts "FizzBuzz"
+   
 end
 
 def reverse_string(str)
-  # your code here
+  str = "hello"
+  puts "hello".reverse
 end
